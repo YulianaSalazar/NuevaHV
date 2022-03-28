@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/boostrap.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.1.0-web/css/all.min.css">
+    <title>Luis Salazar</title>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Luis Alberto Salazar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contenido-navbar"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="contenido-navbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a href="#estudios" class="nav-link">Estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Habilidades" class="nav-link">Habilidades</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropProyectos" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Proyectos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropProyectos">
+                            <li>
+                                <a href="#" class="dropdown-item">Proyecto 1</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">Proyecto 2</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">Proyecto 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="inicio">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+        </nav>
+    </header>
+
+    <section class="py-3 mt-3" id="main-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="d-flex justify-content-center">
+                        <img src="./assets/css/img/myAvatar.png" alt="Mi foto" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h1 class="text-end pt-2 pt-sm-0" id="nombre">Luis Salazar</h1>
+                    <h2 class="text-end">Desarrollador de software</h2>
+                    <p class="text-end">Desarrollador de aplicaciones web, moviles y de escritorio</p>
+                    <h2>Acerca de mi</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using 'Content here, content here', making it look like
+                        readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                        their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                        their infancy.</p>
+                    <ul class="list-group list-group-horizontal d-flex justify-content-center">
+                        <li class="list-group-item" class="aling-items: center; ">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook fa-2x" style="color:black"></i>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <i class="fa-brands fa-instagram fa-2x" style="color:black"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <i class="fa-solid fa-calendar-days" style="color:black"></i>
+                            18 de enero de 2005
+                        </li>
+
+                        <li class="list-group-item">
+                            <i class="fa-solid fa-mobile-retro"></i>
+                            <a href="tel:+573154889051" class="text-decoration-none" style="color:black"></a>315 488
+                            9051</a>
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fa-regular fa-at"></i>
+                            <a href="mailto:lasalazar232@misena.edu.co" class="text-decoration-none"
+                                style="color:black">lasalazar232@misena.edu.co</a>
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Ibague,Tolima,Colombia
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-3" id="estudios">
+        <div class="container">
+            <h1 class=" py-2 px-2 bg-secondary text-white">Estudios</h1>
+            <div class="accordion" id="acordeonEstudios">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="estudio1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#uno" aria-expanded="true" aria-controls="uno">
+                            Tecnologo en analisis y desarrollo de sistemas de informacion
+                        </button>
+                    </h2>
+                    <div id="uno" class="accordion-collapse collapse" aria-labelledby="estudio1"
+                        data-bs-parent="#acordeonEstudios">
+                        <div class="accordion-body">
+                            <span class="fw-bould">Servicio Nacional De Aprendizaje SENA</span> 2022
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="dos">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#estudio2" aria-expanded="false" aria-controls="dos">
+                            Tecnico en Sistemas
+                        </button>
+                    </h2>
+                    <div id="estudio2" class="accordion-collapse collapse" aria-labelledby="dos"
+                        data-bs-parent="#acordeonEstudios">
+                        <div class="accordion-body">
+                            <span class="fw-bould">Servicio Nacional De Aprendizaje SENA</span> 2021
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="tres">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#estudios3" aria-expanded="false" aria-controls="tres">
+                            Bachillerato
+                        </button>
+                    </h2>
+                    <div id="estudios3" class="accordion-collapse collapse" aria-labelledby="tres"
+                        data-bs-parent="#acordeonEstudios">
+                        <div class="accordion-body">
+                            <span class="fw-bould">Jose Joaquin Florez Hernandez</span> 2021
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-3" id="Habilidades">
+        <div class="container">
+            <h1 class="py-2 px-2 bg-secondary text-white">Habilidades</h1>
+
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 25%" aria-valuenow="0"
+                    aria-valuemin="0" aria-valuemax="100">PHP</div>
+            </div>
+
+            <div class="progress mt-2">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 25%" aria-valuenow="0"
+                    aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+            </div>
+
+            <div class="progress mt-2">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 25%" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100">Boostrap</div>
+            </div>
+
+
+
+            <div class="progress mt-2">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 40%" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100">CSS</div>
+            </div>
+
+            <div class="progress mt-2">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="70"
+                    aria-valuemin="0" aria-valuemax="100">HTML</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-3" id="proyectos">
+        <div class="container">
+            <h1 class=" py-2 px-2 bg-secondary text-white">Proyectos</h1>
+            <div class="row">
+                <div class="card-group">
+
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto A</h5>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                                more-or-less normal distribution of letters, as opposed to using 'Content here, content
+                                here', making it look like readable English. Many desktop publishing packages and web
+                                page editors now use Lorem Ipsum as their default model text,</p>
+                            <a href="" class="btn btn-outline-primary rounded-pill">
+                                <i class="fas fa-eye"></i>ver proyecto</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto B</h5>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                                more-or-less normal distribution of letters, as opposed to using 'Content here, content
+                                here', making it look like readable English. Many desktop publishing packages and web
+                                page editors now use Lorem Ipsum as their default model text,</p>
+                            <a href="" class="btn btn-outline-primary rounded-pill">
+                                <i class="fas fa-eye"></i>ver proyecto</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto C</h5>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                                more-or-less normal distribution of letters, as opposed to using 'Content here, content
+                                here', making it look like readable English. Many desktop publishing packages and web
+                                page editors now use Lorem Ipsum as their default model text,</p>
+                            <a href="" class="btn btn-outline-primary rounded-pill">
+                                <i class="fas fa-eye"></i>ver proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-3" id="carrusel">
+        <div class="container">
+            <h1 class=" py-2 px-2 bg-secondary text-white">Carrusel</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/css/img/primer img.jpg" class="d-block w-100" alt="Primer img">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Primer Imagen</h5>
+                            <p>Mario Bross</p>
+                          </div>
+                    </div>
+
+                        <div class="carousel-item">
+                            <img src="./assets/css/img/segunda img2.jpg" class="d-block w-100" alt="Segunda img">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Segunda Imagen</h5>
+                                <p>Mario Bross</p>
+                              </div>
+                            
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="./assets/css/img/tercer img.jpeg" class="d-block w-100" alt="Tercera img">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Tercer Imagen</h5>
+                                    <p>Mario Bross</p>
+                                  </div>
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+    </section>
+
+    <section class="py-3" id="modales">
+        <div class="container">
+            <h1 class=" py-2 px-2 bg-secondary text-white">Modales</h1>
+            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalToggleLabel">Nombres</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p><a href="#" >
+                        <i class="fa-solid fa-user " style="color:black"></i></a>Sandra Ramirez</p>
+                      <p><a href="#">
+                        <i class="fa-solid fa-user" style="color:black"></i></a>Luis Bejarano</p>
+                      <p><a href="#">
+                        <i class="fa-solid fa-user" style="color:black"></i></a>Ana Cecilia</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Telefonos</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalToggleLabel2">Numero de contacto</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p><i class="fa-solid fa-mobile-retro"></i>+57 350 744 5348</p>
+                      <p><i class="fa-solid fa-mobile-retro"></i>+57 315 265 9632</p>
+                      <p><i class="fa-solid fa-mobile-retro"></i>+57 316 573 3664</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Volver</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Referencias Personales</a>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
